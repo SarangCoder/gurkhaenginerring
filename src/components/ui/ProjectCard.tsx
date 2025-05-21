@@ -16,31 +16,32 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className="group relative overflow-hidden rounded-lg shadow-custom bg-white"
     >
-      <div className="aspect-[4/3] overflow-hidden">
-        <img
-          src={project.thumbnail}
-          alt={project.title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-        />
-      </div>
-      <div className="p-6">
-        <h3 className="heading-md mb-2">{project.title}</h3>
-        <p className="text-secondary-600 mb-4 line-clamp-2">
-          {project.shortDescription}
-        </p>
-        <div className="flex justify-between items-center">
-          <span className="text-accent-600 font-medium">
-            NPR {project.price.toLocaleString()}
-          </span>
-          <Link
-            to={`/projects/${project.id}`}
-            className="flex items-center text-primary-600 font-medium hover:text-primary-700 transition-colors"
-          >
-            <span>View Details</span>
-            <ExternalLink size={16} className="ml-1" />
-          </Link>
+      <Link
+        to={`/projects/${project.id}`}
+        className="block h-full"
+        tabIndex={0}
+        aria-label={`View details for ${project.title}`}
+      >
+        <div className="aspect-[4/3] overflow-hidden">
+          <img
+            src={project.thumbnail}
+            alt={project.title}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          />
         </div>
-      </div>
+        <div className="p-6">
+          <h3 className="heading-md mb-2">{project.title}</h3>
+          <p className="text-secondary-600 mb-4 line-clamp-2">
+            {project.shortDescription}
+          </p>
+          <div className="flex justify-between items-center">
+            <span className="text-accent-600 font-medium">
+              NPR {project.price.toLocaleString()}
+            </span>
+            
+          </div>
+        </div>
+      </Link>
     </motion.div>
   );
 };
