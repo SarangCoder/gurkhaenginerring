@@ -20,7 +20,7 @@ const HomePage = () => {
       <ServicesSection />
       <ProjectsSection />
       <TestimonialsSection />
-      <ContactSection />
+    <ContactSection />
       <CTASection />
     </>
   );

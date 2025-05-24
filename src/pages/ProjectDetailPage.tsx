@@ -112,7 +112,7 @@ const ProjectDetailPage = () => {
                 </div>
                 <div className="flex items-center text-secondary-600">
                   <Calendar size={16} className="mr-2" />
-                  <span>Completed: {project.completionDate}</span>
+                  {/* <span>Completed: {project.completionDate}</span> */}
                 </div>
                 <div className="flex items-center text-secondary-600">
                   <Home size={16} className="mr-2" />
@@ -127,7 +127,7 @@ const ProjectDetailPage = () => {
                 className="mb-6"
               >
                 <div className="text-2xl font-bold text-accent-600 mb-2">
-                  NPR {project.price.toLocaleString()}
+                  {/* NPR {project.price.toLocaleString()} */}
                 </div>
                 <p className="text-secondary-600">{project.fullDescription}</p>
               </motion.div>

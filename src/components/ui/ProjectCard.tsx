@@ -36,7 +36,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
           </p>
           <div className="flex justify-between items-center">
             <span className="text-accent-600 font-medium">
-              NPR {project.price.toLocaleString()}
+            
             </span>
             
           </div>
