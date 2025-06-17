@@ -20,7 +20,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=100087866276128"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-accent-400 transition-colors"
@@ -38,7 +38,7 @@ const Footer = () => {
                 <Instagram size={20} />
               </a>
               <a
-                href="https://tiktok.com"
+                href="https://www.tiktok.com/@gorkha_engineering_dang"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-accent-400 transition-colors"
@@ -136,7 +136,7 @@ const Footer = () => {
                   href="mailto:info@gorkhaengineering.com"
                   className="text-secondary-300 hover:text-white transition-colors"
                 >
-                  info@gorkhaengineering.com
+                  gurkhaengineering2@gmail.com
                 </a>
               </li>
             </ul>

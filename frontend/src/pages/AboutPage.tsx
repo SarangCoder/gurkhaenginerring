@@ -55,10 +55,13 @@ const AboutPage = () => {
             >
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/2760248/pexels-photo-2760248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                  src="https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/500650348_679313678340835_7181844436156264175_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=iOvnzGdrbO4Q7kNvwGzFwaO&_nc_oc=Adl8PlpY9ckqr2get92__D0lKfpxXsA0jqgo0m2XetgJscBMImi4T440NDTUl5Bh-U8&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=dOBNdLIgKftvF1CSpqjvng&oh=00_AfNl_zS0d1mC77pT_jzya6o2qRAqhqsxW2tPfjbBLAN_ZQ&oe=6856DE8F"
+                  
                   alt="Gorkha Engineering team"
                   className="rounded-lg shadow-custom"
+                  style={{height: "90vh", width: "60vh"}}
                 />
+                
                 <div className="absolute -bottom-6 -right-6 bg-white p-5 rounded-lg shadow-custom">
                   <p className="text-3xl font-bold text-primary-600">10+</p>
                   <p className="text-secondary-600 text-sm">Years of Excellence</p>
