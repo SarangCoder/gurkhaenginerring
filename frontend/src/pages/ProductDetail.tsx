@@ -52,7 +52,7 @@ const ProductDetail: React.FC = () => {
   
   const handleAddToCart = () => {
     addToCart(product, quantity);
-    toast.success(`${product.name} added to cart`);
+    // toast.success(`${product.name} added to cart`);
   };
 
   return (
