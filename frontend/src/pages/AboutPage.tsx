@@ -39,7 +39,7 @@ const AboutPage = () => {
       
       <div className="bg-primary-900 pt-32 pb-16 text-white">
         <div className="container-custom">
-          <h1 className="heading-xl mb-4 text-center">About Us</h1>
+          <h1 className="heading-xl mb-4 text-center text-white">About Us</h1>
           <p className="text-xl text-center max-w-3xl mx-auto text-primary-100">
             Learn about our journey, values, and commitment to excellence in civil construction and consulting.
           </p>
