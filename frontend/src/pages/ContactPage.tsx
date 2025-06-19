@@ -14,7 +14,7 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: 'info@gorkhaengineering.com',
+      details: 'gurkhaengineering2@gmail.com',
     },
     {
       icon: MapPin,
