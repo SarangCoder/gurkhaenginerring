@@ -15,13 +15,13 @@ const ContactSection = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: 'info@gorkhaengineering.com',
-      link: 'mailto:info@gorkhaengineering.com',
+      details: 'gurkhaengineering 2@gmail.com',
+      link: 'mailto:gurkhaengineering2@gmail.com',
     },
     {
       icon: MapPin,
       title: 'Location',
-      details: 'Dang, Ghorai, Nepal',
+      details: 'Dang, Ghorahi, Nepal',
       link: 'https://goo.gl/maps/123',
     },
   ];

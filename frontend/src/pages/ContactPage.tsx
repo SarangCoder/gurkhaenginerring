@@ -37,7 +37,7 @@ const ContactPage = () => {
       
       <div className="bg-primary-900 pt-32 pb-16 text-white">
         <div className="container-custom">
-          <h1 className="heading-xl mb-4 text-center">Contact Us</h1>
+          <h1 className="heading-xl mb-4 text-center text-white">Contact Us</h1>
           <p className="text-xl text-center max-w-3xl mx-auto text-primary-100">
             Get in touch with our team for inquiries, consultations, or to discuss your next project. We're here to help!
           </p>

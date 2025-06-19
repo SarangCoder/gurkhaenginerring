@@ -5,7 +5,7 @@ import ProductGallery from '../components/ProductGallery';
 import { getProductById, getProductsByCategory } from '../data/products';
 import { useCart } from '../context/CartContext';
 import ProductCard from '../components/ProductCard';
-import toast from 'react-hot-toast';
+// import toast from 'react-hot-toast';
 
 const ProductDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();

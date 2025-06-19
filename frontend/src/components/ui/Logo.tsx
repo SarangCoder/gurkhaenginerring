@@ -18,7 +18,7 @@ const Logo = ({ variant = 'dark' }: LogoProps) => {
           variant === 'light' ? 'text-white' : 'text-secondary-900'
         }`}
       >
-        Gorkha<span className="text-primary-600">Engineering</span>
+        <span className="text-primary-600">Gorkha</span><span className="text-primary-600">Engineering</span>
       </div>
     </div>
   );
