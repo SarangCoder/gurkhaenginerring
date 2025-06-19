@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 import ProjectCard from '../components/ui/ProjectCard';
 import { projects } from '../data/projects';
-import SectionHeading from '../components/ui/SectionHeading';
+// import SectionHeading from '../components/ui/SectionHeading';
 import CTASection from '../components/ui/CTASection';
 
 const ProjectsPage = () => {
