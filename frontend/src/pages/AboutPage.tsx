@@ -33,6 +33,8 @@ const AboutPage = () => {
       <Helmet>
         <title>About Us - Gorkha Engineering</title>
         <meta name="description" content="Learn about Gorkha Engineering, Nepal's leading civil construction and consulting firm dedicated to excellence and innovation." />
+        <meta name="keywords" content="Gurkha engineering consulting, house design in ghorahi, house design, engineering Consultancy in ghorahi, building design, naksha design, naksha pass, Ghar naksha " />
+        <meta name="author" content="Codestack A Complete IT Solution" />
       </Helmet>
       
       <div className="bg-primary-900 pt-32 pb-16 text-white">

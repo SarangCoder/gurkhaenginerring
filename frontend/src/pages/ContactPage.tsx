@@ -33,8 +33,10 @@ const ContactPage = () => {
       <Helmet>
         <title>Contact Us - Gorkha Engineering</title>
         <meta name="description" content="Contact Gorkha Engineering for construction and consulting services in Dang, Nepal. Get in touch for inquiries or consultations." />
+        <meta name="keywords" content="Gurkha engineering consulting, house design in ghorahi, house design, engineering Consultancy in ghorahi, building design, naksha design, naksha pass, Ghar naksha " />
+        <meta name="author" content="Codestack A Complete IT Solution" />
       </Helmet>
-      
+
       <div className="bg-primary-900 pt-32 pb-16 text-white">
         <div className="container-custom">
           <h1 className="heading-xl mb-4 text-center">Contact Us</h1>
@@ -43,7 +45,7 @@ const ContactPage = () => {
           </p>
         </div>
       </div>
-      
+
       <div className="section-padding bg-white">
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
@@ -52,7 +54,7 @@ const ContactPage = () => {
                 title="Get In Touch"
                 subtitle="We're here to answer any questions you may have about our services"
               />
-              
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
                 {contactInfo.map((item, index) => (
                   <div key={index} className="flex items-start">
@@ -66,7 +68,7 @@ const ContactPage = () => {
                   </div>
                 ))}
               </div>
-              
+
               <div className="mb-8">
                 <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
                 <div className="flex space-x-4">
@@ -106,10 +108,10 @@ const ContactPage = () => {
                 </div>
               </div>
             </div>
-            
+
             <ContactForm />
           </div>
-          
+
           <div>
             <SectionHeading
               title="Find Us"

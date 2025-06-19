@@ -13,14 +13,16 @@ const HomePage = () => {
       <Helmet>
         <title>Gorkha Engineering - Civil Construction & Consulting Services</title>
         <meta name="description" content="Gorkha Engineering provides professional civil construction and consulting services with 3D design expertise in Dang, Nepal." />
+        <meta name="keywords" content="Gurkha engineering consulting, house design in ghorahi, house design, engineering Consultancy in ghorahi, building design, naksha design, naksha pass, Ghar naksha " />
+        <meta name="author" content="Codestack A Complete IT Solution" />
       </Helmet>
-      
+
       <HeroSection />
       <AboutSection />
       <ServicesSection />
       <ProjectsSection />
       <TestimonialsSection />
-    <ContactSection />
+      <ContactSection />
       <CTASection />
     </>
   );

@@ -44,6 +44,7 @@ const Footer = () => {
                 className="text-white hover:text-accent-400 transition-colors"
                 aria-label="TikTok"
               >
+              
                 <svg
                   width="20"
                   height="20"
